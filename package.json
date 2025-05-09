@@ -1,0 +1,14 @@
+{
+    "name": "website-monitor",
+    "version": "1.0.0",
+    "description": "Monitors a website for changes and sends email notifications.",
+    "main": "monitor.js",
+    "scripts": {
+        "start": "node monitor.js"
+    },
+    "dependencies": {
+        "axios": "^1.9.0",
+        "dotenv": "^16.5.0",
+        "nodemailer": "^7.0.3"
+    }
+}
